@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 90%;
+    box-shadow: 0px 0px 2px rgb(167, 167, 167);
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.inner {
+    background-color: white;
+    padding: 5px 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+}
+
+label {
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.form-group {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.col-75 {
+    float: right;
+    width: 82%;
+    resize: vertical;
+}
+
+.inner::after {
+    clear: both;
+    content: "";
+}
+
+.radio-group {
+    padding: 0px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.radio-group>legend {
+    float: left;
+    padding-left: 5px;
+    width: 18%;
+}
+
+.select {
+    display: inline-block;
+}
+
+.option input,
+.option label {
+    width: fit-content;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.option input {
+    cursor: pointer;
+    accent-color: blue;
+}
+
+.buttonform {
+    margin-left: 15px;
+}
+
+.buttonform > input {
+    margin: 10px 0px;
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.buttonform>a {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    background-color: orange;
+    color: black;
+    border-radius: 7px;
+    border: none;
+    display: inline-block;
+}
+
+.rowbirth {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.rowbirth label {
+    display: block;
+    padding-left: 5px;
+    margin-top: 5px;
+    width: 18%;
+    float: left;
+}
+
+.rowbirth input,
+.rowbirth p {
+    display: inline-block;
+}
+
+.birthdate {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 4px;
+    width: 82%;
+}
+
+.birthdate input {
+    width: 40%;
+}
+
+.birthdate p {
+    text-align: center;
+    padding: 0px;
+    width: 20%;
+}
+
+.birthdate :first-child {
+    float: left;
+    margin-top: 4px;
+}
+
+.birthdate :last-child {
+    float: right;
+    margin-top: 4px;
+}
+
+.rowselect {
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.rowselect label {
+    width: 18%;
+}
+
+.rowselect select {
+    float: right;
+    width: 82%;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#select .option {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.buttonfind {
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.buttonfind input[type=submit] {
+    background-color: turquoise;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    width: 115px;
+}
+
+.buttonfind a {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    width: 115px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.table {
+    margin: auto;
+}
+
+.foot {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+.foot > a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.page {
+    float: right;
+    margin-right: 25px;
+    border-radius: 7px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.page a {
+    display: inline-block;
+    padding: 9px 13px;
+    text-decoration: none;
+    color: blue;
+}
+
+.pagenumber {
+    display: inline-block;
+}
+
+.pagenumber .select {
+    color: white;
+    background-color: blue;
+}
+
+#add {
+    background-color: blue;
+    width: 115px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+
+.table {
+    background-color: white;
+    padding: 25px 0px 10px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 15px
+}
+
+tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.delete {
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    width: 115px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+
+.update {
+    text-decoration: none;
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    width: 115px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }  
